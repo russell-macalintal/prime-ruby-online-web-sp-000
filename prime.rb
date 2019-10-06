@@ -1,4 +1,5 @@
 # Add  code here!
+require 'pry'
 def prime?(number)
   if number == 2
     true
@@ -15,3 +16,4 @@ prime?(103)
 prime?(20)
 prime?(-5)
 prime?(121)
+binding.pry
