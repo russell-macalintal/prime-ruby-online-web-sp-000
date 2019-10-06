@@ -8,3 +8,10 @@ def prime?(number)
     false
   end
 end
+
+prime?(2)
+prime?(3)
+prime?(103)
+prime?(20)
+prime?(-5)
+prime?(121)
